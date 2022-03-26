@@ -1,0 +1,11 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: naming-server
+
+eureka:
+  client:
+    register-with-eureka: false #only for localhost
+    fetch-registry: false #only for localhost
